@@ -26,7 +26,7 @@ public class Main extends JavaPlugin implements Listener{
 					Player victim = (Player) e.getEntity();
 					if (shooter.getName() == victim.getName()){
 						e.setCancelled(true);
-						shooter.sendMessage("§cYou cannot boost yourself with a bow!");
+						shooter.sendMessage("Â§cYou cannot boost yourself with a bow!");
 					}else{
 						e.setCancelled(false);
 					}
